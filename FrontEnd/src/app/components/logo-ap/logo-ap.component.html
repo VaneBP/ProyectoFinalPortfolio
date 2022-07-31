@@ -1,0 +1,16 @@
+<div class="row">
+  <div class="container">
+    <div class="logo">
+      <img src="../../../assets/logoAP.png" id="logoAP">
+    </div>
+    <div class="redes">
+        <a href="https://www.facebook.com/vane.bastianellipratt/"><img src="../../../assets/logofacebook.png" id="facebook"></a>
+        <a href="https://github.com/VaneBP"><img src="../../../assets/logogit-hub.png" id="github"></a>
+        <a href="https://www.instagram.com/vanebastianelli/"><img src="../../../assets/logoinstagram.png" id="instagram"></a>
+        <a href=""><img src="../../../assets/logolinkedin.png" id="linkedin"></a>
+        <a href="https://twitter.com/vanebastianelli"><img src="../../../assets/logotwitter.png" id="twitter"></a>
+        <button type="button" class="btn btn-outline-light"(click)="login()" *ngIf="!isLogged">INGRESAR</button>
+        <button type="button" class="btn btn-outline-light"(click)="onLogOut()" *ngIf="isLogged">CERRAR SESIÓN</button>
+     </div>
+  </div>
+</div>
